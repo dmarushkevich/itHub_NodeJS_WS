@@ -1,0 +1,17 @@
+{
+  "name": "ithub_sem3_kt2_marushkevich_da_22",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
