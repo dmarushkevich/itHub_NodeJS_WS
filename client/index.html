@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itHub_Sem3_KT2_Marushkevich_DA_22</title>
+</head>
+<body>
+
+    <h3>Введите ключевое слово!</h3>
+
+    <div id="divForm" style="margin-bottom: 15px">
+        <form id="form-request" style="margin-bottom: 25px">
+            <input type="text" name="user_request" maxlength="16" placeholder="Ключевое слово">
+            <button type="submit">Поиск</button>
+        </form>
+    </div>
+    
+    <h3>Результат поиска URL на сервере по ключевому слову</h3>
+    <div id="divRemote"></div>
+
+    <h3>Список загруженного контента</h3>
+    <div id="divLocal"></div>
+
+
+    <script>
+        function keys() {
+            alert("Стол, Стул, Машина");
+        }
+      </script>
+      <h3></h3>
+      <input type="button" onclick="keys()" value="Вывести ключевые слова, чтобы не гадать!">
+
+<script src="client.js"></script>
+<script src="../server/URL_DICT.js"></script>
+</body>
+</html>
